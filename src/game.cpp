@@ -1,5 +1,6 @@
 #include "game.hpp"
 #include <systems/systemsManager.hpp>
+#include <iostream>
 
 Game::Game(){
     window_.create(sf::VideoMode(1920, 1080), "Game");
@@ -22,6 +23,10 @@ void Game::run(){
 
     Scene* scene;
 
+    //sf::Time fpsShowTime = sf::seconds(0.5);
+    //sf::Time deltaTime = sf::Time::Zero;
+    
+
     while(active_){
         time = clock.restart();
 
@@ -35,7 +40,11 @@ void Game::run(){
         window_.clear();
 
         window_.draw(*scene);
-
+        //deltaTime += time;
+        /*while(deltaTime >= fpsShowTime){
+            std::cout << static_cast<int>(sf::seconds(1) / time) << "\n";
+            deltaTime -= fpsShowTime;
+        }*/
         window_.display();
     }
 

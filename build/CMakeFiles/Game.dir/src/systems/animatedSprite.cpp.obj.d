@@ -1,6 +1,6 @@
-CMakeFiles/Game.dir/src/game.cpp.obj: \
- C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\game.cpp \
- C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\game.hpp \
+CMakeFiles/Game.dir/src/systems/animatedSprite.cpp.obj: \
+ C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\systems\animatedSprite.cpp \
+ C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\systems\animatedSprite.hpp \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/Graphics.hpp \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/Window.hpp \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/System.hpp \
@@ -246,26 +246,4 @@ CMakeFiles/Game.dir/src/game.cpp.obj: \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/Graphics/Sprite.hpp \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/Graphics/Text.hpp \
  C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/LIBRAR~1/win/SFML-2~1.1/include/SFML/Graphics/VertexBuffer.hpp \
- C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\gameEvent.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/signal/signal.hpp \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/queue \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/deque \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_deque.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/deque.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_queue.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/set \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_set.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multiset.h \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/signal/listener.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/state/machine.hpp \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/stack \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_stack.h \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/state/state.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/state/stateEvent.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/systems/scene.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/objects/gameObject.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/systems/systemsManager.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/systems/assetManager.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/systems/inputHandler.hpp \
- C:/Users/Wiktor/Desktop/Wiktor/C__PRO~1/Game/src/systems/singleton.hpp \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
+ C:\Users\Wiktor\Desktop\Wiktor\C++\ projects\Game\src\systems\animation.hpp
