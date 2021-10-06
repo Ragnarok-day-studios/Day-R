@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/game.cpp" "CMakeFiles/Game.dir/src/game.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/game.cpp.obj.d"
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/gameEvent.cpp" "CMakeFiles/Game.dir/src/gameEvent.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/gameEvent.cpp.obj.d"
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/main.cpp" "CMakeFiles/Game.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/main.cpp.obj.d"
+  "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/map/logicalMap.cpp" "CMakeFiles/Game.dir/src/map/logicalMap.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/map/logicalMap.cpp.obj.d"
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/objects/gameObject.cpp" "CMakeFiles/Game.dir/src/objects/gameObject.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/objects/gameObject.cpp.obj.d"
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/signal/listener.cpp" "CMakeFiles/Game.dir/src/signal/listener.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/signal/listener.cpp.obj.d"
   "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/signal/signal.cpp" "CMakeFiles/Game.dir/src/signal/signal.cpp.obj" "gcc" "CMakeFiles/Game.dir/src/signal/signal.cpp.obj.d"

@@ -73,5 +73,10 @@
   "directory": "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/build",
   "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Game.dir/includes_CXX.rsp -g -Wall -std=gnu++1z -o CMakeFiles\\Game.dir\\src\\systems\\animatedSprite.cpp.obj -c \"C:\\Users\\Wiktor\\Desktop\\Wiktor\\C++ projects\\Game\\src\\systems\\animatedSprite.cpp\"",
   "file": "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/systems/animatedSprite.cpp"
+},
+{
+  "directory": "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Game.dir/includes_CXX.rsp -g -Wall -std=gnu++1z -o CMakeFiles\\Game.dir\\src\\map\\logicalMap.cpp.obj -c \"C:\\Users\\Wiktor\\Desktop\\Wiktor\\C++ projects\\Game\\src\\map\\logicalMap.cpp\"",
+  "file": "C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/src/map/logicalMap.cpp"
 }
 ]

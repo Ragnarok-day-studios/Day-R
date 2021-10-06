@@ -200,6 +200,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/map/logicalMap.obj: src/map/logicalMap.cpp.obj
+.PHONY : src/map/logicalMap.obj
+
+# target to build an object file
+src/map/logicalMap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/map/logicalMap.cpp.obj
+.PHONY : src/map/logicalMap.cpp.obj
+
+src/map/logicalMap.i: src/map/logicalMap.cpp.i
+.PHONY : src/map/logicalMap.i
+
+# target to preprocess a source file
+src/map/logicalMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/map/logicalMap.cpp.i
+.PHONY : src/map/logicalMap.cpp.i
+
+src/map/logicalMap.s: src/map/logicalMap.cpp.s
+.PHONY : src/map/logicalMap.s
+
+# target to generate assembly for a file
+src/map/logicalMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/map/logicalMap.cpp.s
+.PHONY : src/map/logicalMap.cpp.s
+
 src/objects/gameObject.obj: src/objects/gameObject.cpp.obj
 .PHONY : src/objects/gameObject.obj
 
@@ -506,6 +530,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/map/logicalMap.obj
+	@echo ... src/map/logicalMap.i
+	@echo ... src/map/logicalMap.s
 	@echo ... src/objects/gameObject.obj
 	@echo ... src/objects/gameObject.i
 	@echo ... src/objects/gameObject.s
