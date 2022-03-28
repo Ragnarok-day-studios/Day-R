@@ -1,8 +1,8 @@
-  
 #pragma once
 
 #include <SFML/Graphics.hpp>
 
+// Base class for all interactable objects in game
 class GameObject : public sf::Drawable, public sf::Transformable {
     protected:
         bool active_;

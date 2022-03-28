@@ -2,6 +2,7 @@
 
 #include <signal/signal.hpp>
 
+// Custom event model
 struct GameEvent{
     GameEvent();
     enum Type{

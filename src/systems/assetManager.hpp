@@ -1,9 +1,9 @@
 #pragma once
 
+//takes care of all assets
 class AssetManager {
-    public:
-        void load();
+public:
+    void load();
 
-    private:
-
+private:
 };

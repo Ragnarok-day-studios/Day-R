@@ -1,3 +1,0 @@
-C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/build/CMakeFiles/Game.dir
-C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/build/CMakeFiles/edit_cache.dir
-C:/Users/Wiktor/Desktop/Wiktor/C++ projects/Game/build/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,7 @@
 
 #include "state.hpp"
 
+// Custom event model specially for state machine
 struct StateEvent{
     enum Type{
         Add,

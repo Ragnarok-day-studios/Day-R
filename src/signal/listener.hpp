@@ -1,5 +1,6 @@
 #pragma once
 
+// Model for a listener of events
 template<typename T>
 class Listener {
     public:

@@ -2,6 +2,7 @@
 
 class Machine;
 
+// Model of state from state machine
 class State{
     private:
         bool active_;

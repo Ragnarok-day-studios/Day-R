@@ -6,6 +6,7 @@
 #include <state/machine.hpp>
 #include <systems/scene.hpp>
 
+//main game class where everything comes to life
 class Game : public Listener<GameEvent>, public Listener<sf::Event>{
     private:
         bool active_;

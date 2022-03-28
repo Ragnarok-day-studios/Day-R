@@ -1,4 +1,3 @@
-  
 #pragma once
 
 #include <state/state.hpp>
@@ -6,6 +5,7 @@
 #include <signal/listener.hpp>
 #include <objects/gameObject.hpp>
 
+// Here all things are going to be drawn to
 class Scene : public State, public sf::Drawable, public Listener<sf::Event> {
 public:
 	void onNotify(const sf::Event& event) override;

@@ -5,6 +5,7 @@
 #include "state.hpp"
 #include "stateEvent.hpp"
 
+// Universal state machine
 class Machine : public Signal<StateEvent>, public Listener<StateEvent>{
     private:
         std::stack<State*> states_;

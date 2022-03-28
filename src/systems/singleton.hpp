@@ -1,5 +1,6 @@
 #pragma once
 
+// Simply a singleton
 template<typename T>
 class Singleton {
 protected:

@@ -4,6 +4,7 @@
 #include <set>
 #include "listener.hpp"
 
+// Handles sending events to all listed listeners of those events
 template<typename T>
 class Signal{
     private:

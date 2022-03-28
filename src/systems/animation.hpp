@@ -2,6 +2,7 @@
 
 #include <SFML/Graphics.hpp>
 
+// Handles animation for sprites and map fields
 class Animation{
     private:
         std::vector<sf::Texture*> frames_;
