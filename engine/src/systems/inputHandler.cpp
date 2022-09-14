@@ -1,4 +1,4 @@
-#include "inputHandler.hpp"
+#include "../../include/systems/inputHandler.hpp"
 
 void InputHandler::handleEvents() {
 	sf::Event event;

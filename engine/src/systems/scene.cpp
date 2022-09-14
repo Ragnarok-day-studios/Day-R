@@ -1,7 +1,7 @@
-#include "scene.hpp"
+#include "../../include/systems/scene.hpp"
 #include <objects/gameObject.hpp>
-#include <gameEvent.hpp>
-#include <systems/systemsManager.hpp>
+#include "../../../game/include/gameEvent.hpp"
+#include "../../include/systems/systemsManager.hpp"
 
 void Scene::onNotify(const sf::Event& event) {
     if (getActive()) {

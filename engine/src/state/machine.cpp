@@ -1,4 +1,4 @@
-#include "machine.hpp"
+#include "../../include/state/machine.hpp"
 #include <iostream>
 
 Machine::Machine(){

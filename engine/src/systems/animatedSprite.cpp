@@ -1,4 +1,4 @@
-#include "animatedSprite.hpp"
+#include "../../include/systems/animatedSprite.hpp"
 
 void AnimatedSprite::draw(sf::RenderTarget& target, sf::RenderStates states) const{
     if(animation_ != nullptr){
