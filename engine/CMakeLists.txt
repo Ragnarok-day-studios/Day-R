@@ -8,13 +8,13 @@ set(CMAKE_CXX_STANDARD 20)
 include_directories(include)
 
 # find SFML 2.5
-if(WIN32)
+if (WIN32)
     set(SFML_DIR ../libraries/win/SFML-2.5.1/lib/cmake/SFML)
-elseif(MSVC)
+elseif (MSVC)
     set(SFML_DIR ../libraries/msvc/SFML-2.5.1/lib/cmake/SFML)
-else()
+else ()
     set(SFML_DIR ../libraries/unix/SFML-2.5.1/lib/cmake/SFML)
-endif(WIN32)
+endif (WIN32)
 
 find_package(SFML 2.5 COMPONENTS graphics window system audio network REQUIRED)
 

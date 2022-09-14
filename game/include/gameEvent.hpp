@@ -1,11 +1,12 @@
 #pragma once
 
-#include <signal/signal.hpp>
+#include "signal/signal.hpp"
 
 // Custom event model
-struct GameEvent{
+struct GameEvent {
     GameEvent();
-    enum Type{
+
+    enum Type {
 
     };
 

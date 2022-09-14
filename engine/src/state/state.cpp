@@ -1,17 +1,17 @@
-#include "../../include/state/state.hpp"
+#include "state/state.hpp"
 
-State::State(Machine& machine) : fsm_(machine){
+State::State(Machine &machine) : fsm_(machine) {
     setActive(false);
 }
 
-State::~State(){
+State::~State() {
 
 }
 
-bool State::getActive(){
+bool State::getActive() {
     return active_;
 }
 
-void State::setActive(bool isActive){
+void State::setActive(bool isActive) {
     active_ = isActive;
 }

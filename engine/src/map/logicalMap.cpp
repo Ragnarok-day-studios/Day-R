@@ -1,2 +1,2 @@
-#include "../../include/map/logicalMap.hpp"
+#include "map/logicalMap.hpp"
 

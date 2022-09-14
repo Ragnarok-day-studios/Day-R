@@ -1,8 +1,8 @@
-#include "../include/game.hpp"
-#include <systems/systemsManager.hpp>
+#include "game.hpp"
+#include "systems/systemsManager.hpp"
 #include <iostream>
 
-Game::Game(){
+Game::Game() {
     window_.create(sf::VideoMode(1920, 1080), "Game");
 
     SystemsManager::get().getAssetManager().load();
@@ -17,17 +17,17 @@ Game::Game(){
     active_ = true;
 }
 
-void Game::run(){
+void Game::run() {
     sf::Clock clock;
     sf::Time time;
 
-    Scene* scene;
+    Scene *scene;
 
     //sf::Time fpsShowTime = sf::seconds(0.5);
     //sf::Time deltaTime = sf::Time::Zero;
-    
 
-    while(active_){
+
+    while (active_) {
         time = clock.restart();
 
         scene = getScene();
@@ -52,27 +52,27 @@ void Game::run(){
     gameEventSender.removeListener(this);
 }
 
-Game::~Game(){
+Game::~Game() {
     SystemsManager::get().getInputHandler().removeListener(this);
     sceneMachine_.clear();
 }
 
-void Game::onNotify(const sf::Event& event){
-    if(event.type == sf::Event::Closed){
+void Game::onNotify(const sf::Event &event) {
+    if (event.type == sf::Event::Closed) {
         active_ = false;
     }
 }
 
-void Game::onNotify(const GameEvent& event){
+void Game::onNotify(const GameEvent &event) {
 
 }
 
-Scene* Game::getScene(){
-    return static_cast<Scene*>(sceneMachine_.getState());
+Scene *Game::getScene() {
+    return static_cast<Scene *>(sceneMachine_.getState());
 }
 
-Scene* Game::newGame(){
-    Scene* scene = new Scene(sceneMachine_);
+Scene *Game::newGame() {
+    Scene *scene = new Scene(sceneMachine_);
 
     return scene;
 }

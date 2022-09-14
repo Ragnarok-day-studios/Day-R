@@ -1,5 +1,5 @@
-#include "../../include/systems/assetManager.hpp"
+#include "systems/assetManager.hpp"
 
 void AssetManager::load() {
-    
+
 }

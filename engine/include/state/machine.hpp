@@ -1,25 +1,29 @@
 #pragma once
 
 #include <stack>
-#include <signal/signal.hpp>
+#include "signal/signal.hpp"
 #include "state.hpp"
 #include "stateEvent.hpp"
 
 // Universal state machine
-class Machine : public Signal<StateEvent>, public Listener<StateEvent>{
-    private:
-        std::stack<State*> states_;
+class Machine : public Signal<StateEvent>, public Listener<StateEvent> {
+private:
+    std::stack<State *> states_;
 
-    public:
-        void add(State* state);
-        void replace(State* state);
-        void remove(unsigned int count = 1);
-        void clear();
+public:
+    void add(State *state);
 
-        void onNotify(const StateEvent& event) override;
+    void replace(State *state);
 
-        State* getState();
+    void remove(unsigned int count = 1);
 
-        Machine();
-        ~Machine();
+    void clear();
+
+    void onNotify(const StateEvent &event) override;
+
+    State *getState();
+
+    Machine();
+
+    ~Machine();
 };

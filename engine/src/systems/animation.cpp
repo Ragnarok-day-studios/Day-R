@@ -1,4 +1,4 @@
-#include "../../include/systems/animation.hpp"
+#include "systems/animation.hpp"
 
 const sf::Texture &Animation::getFrame(size_t i) {
     return *frames_[i];

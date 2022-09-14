@@ -1,9 +1,9 @@
-#include "../../include/systems/systemsManager.hpp"
+#include "systems/systemsManager.hpp"
 
-AssetManager& SystemsManager::getAssetManager(){
-	return assetManager_;
+AssetManager &SystemsManager::getAssetManager() {
+    return assetManager_;
 }
 
-InputHandler& SystemsManager::getInputHandler() {
-	return inputHandler_;
+InputHandler &SystemsManager::getInputHandler() {
+    return inputHandler_;
 }

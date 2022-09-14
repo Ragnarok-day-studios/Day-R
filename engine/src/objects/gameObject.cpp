@@ -1,4 +1,4 @@
-#include "../../include/objects/gameObject.hpp"
+#include "objects/gameObject.hpp"
 
 bool GameObject::isActive() const {
     return active_;

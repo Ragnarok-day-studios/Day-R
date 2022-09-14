@@ -1,4 +1,4 @@
-#include "../include/gameEvent.hpp"
+#include "gameEvent.hpp"
 
 GameEvent::GameEvent() {
 

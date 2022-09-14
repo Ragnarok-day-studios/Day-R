@@ -1,35 +1,35 @@
-#include "../../include/systems/animatedSprite.hpp"
+#include "systems/animatedSprite.hpp"
 
-void AnimatedSprite::draw(sf::RenderTarget& target, sf::RenderStates states) const{
-    if(animation_ != nullptr){
+void AnimatedSprite::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+    if (animation_ != nullptr) {
         states.transform.combine(getTransform());
         target.draw(sprite_, states);
     }
 }
 
-void AnimatedSprite::update(const sf::Time& time){
-    if(animation_ != nullptr){
+void AnimatedSprite::update(const sf::Time &time) {
+    if (animation_ != nullptr) {
         deltaTime_ += time;
-        while(deltaTime_ > frameTime_){
+        while (deltaTime_ > frameTime_) {
             deltaTime_ -= frameTime_;
             frame_++;
-            if(frame_ == animation_->frameCount())
+            if (frame_ == animation_->frameCount())
                 frame_ = 0;
             sprite_.setTexture(animation_->getFrame(frame_));
         }
     }
 }
 
-void AnimatedSprite::setAnimation(Animation& animation){
+void AnimatedSprite::setAnimation(Animation &animation) {
     this->animation_ = &animation;
     deltaTime_ = sf::milliseconds(0);
 }
 
-void AnimatedSprite::setFrameTime(const sf::Time& time){
+void AnimatedSprite::setFrameTime(const sf::Time &time) {
     frameTime_ = time;
 }
 
-AnimatedSprite::AnimatedSprite(){
+AnimatedSprite::AnimatedSprite() {
     setFrameTime(sf::milliseconds(100));
     frame_ = 0;
 }
