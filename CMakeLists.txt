@@ -5,7 +5,7 @@ project(Game)
 set(CMAKE_CXX_STANDARD 20)
 
 # includes
-include_directories(game/include engine/include)
+include_directories(engine/include)
 
 add_subdirectory(engine)
 
@@ -22,8 +22,11 @@ find_package(SFML 2.5 COMPONENTS graphics window system audio network REQUIRED)
 
 add_executable(Game game/src/main.cpp game/src/game.cpp game/src/gameEvent.cpp)
 
+target_include_directories(Game PRIVATE "game/include")
+
 # compile options
 target_compile_options(Game PRIVATE -Wall)
 
 # link libraries
 target_link_libraries(Game sfml-graphics sfml-window sfml-system sfml-audio sfml-network TenQuatersEngine)
+

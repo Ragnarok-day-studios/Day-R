@@ -5,7 +5,7 @@ project(TenQuatersEngine)
 set(CMAKE_CXX_STANDARD 20)
 
 # includes
-include_directories(include)
+#include_directories(include)
 
 # find SFML 2.5
 if (WIN32)
