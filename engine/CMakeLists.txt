@@ -18,7 +18,7 @@ endif (WIN32)
 
 find_package(SFML 2.5 COMPONENTS graphics window system audio network REQUIRED)
 
-add_library(TenQuatersEngine src/signal/listener.cpp src/signal/signal.cpp src/state/state.cpp src/state/machine.cpp src/state/stateEvent.cpp src/systems/scene.cpp src/systems/systemsManager.cpp src/systems/assetManager.cpp src/systems/inputHandler.cpp src/objects/gameObject.cpp src/systems/animation.cpp src/systems/animatedSprite.cpp src/map/logicalMap.cpp src/map/logicalField.cpp src/map/graphicalMap.cpp src/map/mapMask.cpp src/systems/mapDecoder.cpp)
+add_library(TenQuatersEngine SHARED src/signal/listener.cpp src/signal/signal.cpp src/state/state.cpp src/state/machine.cpp src/state/stateEvent.cpp src/systems/scene.cpp src/systems/systemsManager.cpp src/systems/assetManager.cpp src/systems/inputHandler.cpp src/objects/gameObject.cpp src/systems/animation.cpp src/systems/animatedSprite.cpp src/map/logicalMap.cpp src/map/logicalField.cpp src/map/graphicalMap.cpp src/map/mapMask.cpp src/systems/mapDecoder.cpp)
 
 # compile options
 target_compile_options(TenQuatersEngine PRIVATE -Wall)
