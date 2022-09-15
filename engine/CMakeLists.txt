@@ -24,4 +24,4 @@ add_library(TenQuatersEngine SHARED src/signal/listener.cpp src/signal/signal.cp
 target_compile_options(TenQuatersEngine PRIVATE -Wall)
 
 # link libraries
-target_link_libraries(TenQuatersEngine sfml-graphics sfml-window sfml-system sfml-audio sfml-network)
+#target_link_libraries(TenQuatersEngine sfml-graphics sfml-window sfml-system sfml-audio sfml-network)

@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD 20)
 # includes
 include_directories(engine/include)
 
+# link libraries
+link_libraries(sfml-graphics sfml-window sfml-system sfml-audio sfml-network)
+
 add_subdirectory(engine)
 
 # find SFML 2.5
@@ -27,6 +30,5 @@ target_include_directories(Game PRIVATE "game/include")
 # compile options
 target_compile_options(Game PRIVATE -Wall)
 
-# link libraries
-target_link_libraries(Game sfml-graphics sfml-window sfml-system sfml-audio sfml-network TenQuatersEngine)
+target_link_libraries(Game TenQuatersEngine)
 
